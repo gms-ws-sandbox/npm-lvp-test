@@ -28,6 +28,10 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
-  }
+    },
+    "extends": ["github>whitesource/merge-confidence:beta"]
+  },
+  "leastVulnerablePackageSettings": {                 
+    "enabled": true     
+  } 
 }
